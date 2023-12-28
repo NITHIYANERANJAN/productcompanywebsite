@@ -1,7 +1,8 @@
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Software Development Company </title>
+        <title> people page </title>
         <style type="text/css">
             * {
                 margin: 0;
@@ -11,7 +12,7 @@
             .banner {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(253, 114, 0, 0.848),rgba(0,0,0,0.75)),url(background.jpg);
+                background-image: linear-gradient(rgba(255, 132, 16, 0.837),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
@@ -23,14 +24,21 @@
                 align-items: center;
                 justify-content: space-between;
             }
+            .bg-people {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color: #1c05f3;
+                border-radius: 30px;
+            }
             .logo {
-                color: #5500ff;
+                color: #0b13f6;
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
             }
             span {
-                color: rgb(54, 249, 11);
+                color: rgb(71, 250, 5);
             }
             form {
                 width: 300px;
@@ -60,7 +68,7 @@
                 padding: 5px 20px;
                 color: white;
                 border-radius: 10px;
-                background: #1004f5;
+                background: #060af9;
                 cursor: pointer;
             }
             .navbar li {
@@ -78,68 +86,35 @@
                 border: 1px;
                 padding: 10px;
                 color: white;
-                background-color: #0814fc;
+                background-color: #050dfe;
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
             }
-            .content {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-                text-align: center;
+            .image {
+                position: relative;
+                border: 0;
+                top: 70px;
+                background: transparent;
             }
-            .text h2 {
+            .image table {
+                border: 0;
                 color: white;
-                font-weight: 800;
-                font-size: 50px;
-                letter-spacing: 3px;
+                position: relative;
+                left: 150px;
             }
-            .text p {
-                color: white;
-                text-transform: capitalize;
-                font-size: 15px;
-                margin-bottom: 30px;
-                word-spacing: 2px;
-                letter-spacing: 1px;
+            .image table img {
+                height: 140px;
+                width: 140px;
+                border: 2px solid white;
+                padding: 5px;
+                border-radius: 50%;
             }
-            .login {
-                margin: 0px 10px;
-                border: 2px solid #0828f8;
-                padding: 13px 35px;
-                letter-spacing: 1px;
-                color: white;
-                border-radius: 30px;
-                background-color: #0e12f5;
-                text-decoration: none;
-            }
-            .login:hover {
-                border: 2px solid #0e12f5;
-                color: #6fa1f8;
-                background-color: white;
-                transition: 0.5s;
-                cursor: pointer;
-            } 
-            .signup {
-                margin: 0px 10px;
-                border: 2px solid #0e12f5;
-                padding: 13px 35px;
-                letter-spacing: 1px;
-                color: white;
-                border-radius: 30px;
-                background-color: #0e12f5;
-                text-decoration: none;
-            }
-            .signup:hover {
-                border: 2px solid #0e12f5;
-                color: #6fa1f8;
-                background-color: white;
-                transition: 0.5s;
-                cursor: pointer;
+            .image table td {
+                color: #0813f4;
             }
             footer {
-                background-color: #0e25f5;
+                background-color: #080cf7;
                 margin-top: auto;
             }
         </style>
@@ -148,11 +123,11 @@
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">C<span>ode</span>A<span>cadmey</span></h1>
+            <h1 class="logo">C<span>ode</span>A<span>cademy</span></h1>
             <ul>
                 <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
                 <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
-                <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
+                <li><a href="http://127.0.0.1:8000/static/people.html" class="bg-people"> People </a></li>
                 <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
@@ -160,18 +135,34 @@
                 <button type="submit"> Search </button>
             </form>
         </div>
-        <div class="content">
-            <div class="text">
-                <h2> Web Development </h2>
-                <br>
-                <p>  If you're just getting started learning to code, Codecademy is a great way to get a sense for what coding is and how it works! </p>
-                <br>
-                <div>
-                    <a href="#" class="login"> Log In </a>
-                    <a href="#" class="signup"> Sign Up </a>
-                </div>
-            </div>
-        </div>  
+        <div class="image">
+            <table cellspacing="20"> 
+                <tr align="center">
+                    <td> <img src="nithi.jpeg"> </td>
+                    <td> <img src="M S D.jpeg"> </td>
+                    <td> <img src="virat.jpeg"> </td>
+                    <td> <img src="Ravindra Jadeja.jpeg"> </td>
+                    <td> <img src="pa.jpeg"> </td>
+                    <td> <img src="KL Rahul.jpeg"> </td>
+                </tr>
+                <tr align="center">
+                    <th> Nithi s</th>
+                    <th> M S Dhoni </th>
+                    <th> Virat Kohil</th>
+                    <th> Ravindra Jadeja </th>
+                    <th> Hardik Pandya </th>
+                    <th> KL Rahul </th>
+                </tr>
+                <tr align="center">
+                    <td> CEO </td>
+                    <td> CEO, Co-Founder </td>
+                    <td> CTO, Co-Founder </td>
+                    <td> Director </td>
+                    <td> Asst. Director </td>
+                    <td> Dy. Director </td>
+                </tr>
+            </table>
+        </div>
     </div>
     <footer>
         <center> Designed and Developed by Nithi </center>
