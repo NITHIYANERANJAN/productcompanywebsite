@@ -4,35 +4,34 @@
 
 To design a static website for a software product company company.
 
-## DESIGN STEPS:
+## ALGORITHM
 
-### Step 1:
 
-Requirement collection.
+1.Requirement collection.
 
-### Step 2:
 
-Creating the layout using HTML and CSS.
 
-### Step 3:
+2.Creating the layout using HTML and CSS.
 
-Updating the sample content.
 
-### Step 4:
 
-Choose the appropriate style and color scheme.
+3.Updating the sample content.
 
-### Step 5:
 
-Validate the layout in various browsers.
 
-### Step 6:
+4.Choose the appropriate style and color scheme.
 
-Validate the HTML code.
 
-### Step 6:
 
-Publish the website in the given URL.
+5.Validate the layout in various browsers.
+
+
+
+6.Validate the HTML code.
+
+
+
+7.Publish the website in the given URL.
 
 ## PROGRAM :
 
